@@ -2,7 +2,8 @@
 The problem of finding the difference between ones and zeros in both rows and columns in a binary matrix involves a specific procedure that provides valuable insights into the distribution of ones and zeros. This problem is defined by creating a difference matrix based on the counts of ones and zeros in each row and column. Let's explore the underlying concept and the step-by-step procedure for obtaining this difference matrix.
 
 The Problem:
-Given a binary matrix, the task is to create a difference matrix, where each element represents the difference between the counts of ones and zeros in the corresponding row and column. The procedure involves calculating the number of ones and zeros separately for each row and column and then using these counts to populate the difference matrix.*/
+Given a binary matrix, the task is to create a difference matrix, where each element represents the difference between the counts of ones and zeros in the corresponding row and column. The procedure involves calculating the number of ones and zeros separately for each row and column and then using these counts to populate the difference matrix.
+*/
 
 #include <vector>
 
