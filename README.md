@@ -1,33 +1,22 @@
 # Daily LeetCode Solutions
 
 Welcome to my Daily LeetCode Solutions repository! Here, you'll find my daily C++ solutions to various LeetCode problems.
+## Connect with Me
 
-## Table of Contents
-
-- [Usage](#usage)
-- [Directory Structure](#directory-structure)
-- [Contributing](#contributing)
-- [Connect with Me](#connect-with-me)
-
+- [LinkedIn](https://www.linkedin.com/in/akshat-khatri-c/)
+- [Twitter](https://twitter.com/akshat_khatri_1)
+  
 ## Usage
 
-1. **Navigate to the specific day's folder:** Each day's solution is organized in a separate folder (e.g., `Day1`, `Day2`, etc.).
+1. **Navigate to the specific day's folder:** Each solution is organized in a separate file (e.g., `Day1`, `Day2`, etc.).
 
-2. **Explore the solution:** The C++ solution for the problem is available in the `DayX/Solution.cpp` file.
-
-## Directory Structure
-
-- `DayX/`: Folder for each day's solutions.
-  - `Solution.cpp`: C++ solution code.
+2. **Explore the solution:** The C++ solution for the problem is available in the `DayX.cpp` file.
 
 ## Contributing
 
-Contributions are welcome! If you'd like to add your solutions or provide feedback, please follow the [contribution guidelines](CONTRIBUTING.md).
+Contributions are welcome! If you'd like to add your solutions or provide feedback, please message me on LinkedIn as me and my colleagues do a live class every day and discuss various problems we have just started our journey.
 
-## Connect with Me
 
-- [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile)
-- [Twitter](https://twitter.com/your-twitter-handle)
 
 Feel free to connect with me! I'd love to hear about your coding journey.
 
