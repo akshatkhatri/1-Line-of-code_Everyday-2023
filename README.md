@@ -1,6 +1,8 @@
 # Daily LeetCode Solutions
 
-Welcome to my Daily LeetCode Solutions repository! Here, you'll discover my daily C++ solutions to a variety of challenging LeetCode problems.
+Welcome to my Daily LeetCode Solutions repository! I'm Akshat Khatri, currently pursuing my Bachelor's in Technology in Computer Science and Engineering. I'm in my first year and am incredibly excited and enthusiastic about technology.
+
+Here, you'll discover my daily C++ solutions to a variety of challenging LeetCode problems.
 
 ## Connect with Me
 
