@@ -28,4 +28,4 @@ public:
 
     return candy_array_sum;    
     }
-};
+};.
