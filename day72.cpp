@@ -1,61 +1,56 @@
-class Solution {
+#include <iostream>
+using namespace std;
+
+class Fibonacci {
 public:
-    int fib(int n) {
-        if(n==0){
-
-        return 0;
+    int calculate(int n) {
+        if (n == 0) {
+            return 0;
         }
-
-        if(n==1){
-
-        return 1;
+        if (n == 1) {
+            return 1;
         }
-
-        return fib(n-1)+fib(n-2);
+        return calculate(n - 1) + calculate(n - 2);
     }
 };
-// #include<bits/stdc++.h>
 
-// using namespace std;
+class NamePrinter {
+public:
+    void printAkshat(int n) {
+        if (n == 0) {
+            return;
+        }
+        cout << "Akshat" << endl;
+        printAkshat(n - 1);
+    }
 
-// void print(int n){
-//     if(n==0){
-//         return;
-//     }
-//     cout<<"Akshat"<<endl;
-//     print(n-1);
-// }
-// int main(){
-//     int n;
-//     cout<<"enter number"<<endl;
-//     cin>>n;
+    void printRange(int lower, int upper) {
+        if (lower > upper) {
+            return;
+        }
+        cout << lower << " ";
+        printRange(lower + 1, upper);
+    }
+};
 
-//     print(n);
-//     return 0;
-// }
+int main() {
+    int n;
+    cout << "Enter a number for Fibonacci calculation:" << endl;
+    cin >> n;
 
+    Fibonacci fibObj;
+    cout << "Fibonacci result: " << fibObj.calculate(n) << endl;
 
-// #include<bits/stdc++.h>
+    NamePrinter namePrinterObj;
+    cout << "Enter a number for Akshat printing:" << endl;
+    cin >> n;
+    namePrinterObj.printAkshat(n);
 
-// using namespace std;
+    int lower = 1, upper;
+    cout << "Enter the upper limit for range printing:" << endl;
+    cin >> upper;
+    namePrinterObj.printRange(lower, upper);
 
-// void print(int lower,int upper){
-
-//     if(lower>upper){
-//         return;
-//     }    
-
-//     cout<<lower<<" ";
-//     print(lower+1,upper);
-// }
-
-// int main(){
-//     int lower=1;
-//     int upper;
-
-//     cout<<"enter a number"<<endl;
-//     cin>>upper;
-//     print(lower,upper);    
-//     return 0;
-// }
+    return 0;
+}
 
