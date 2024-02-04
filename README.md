@@ -2,7 +2,7 @@
 
 Welcome to my Daily Coding Solutions repository! I'm Akshat Khatri, currently pursuing my Bachelor's in Technology in Computer Science and Engineering. I'm in my first year and am incredibly excited and enthusiastic about technology.
 
-Here, you'll find my daily solutions to a variety of challenging LeetCode DSA (Data Structures and Algorithms) problems using C++. Additionally, this repository will evolve beyond LeetCode to encompass a broader spectrum of coding challenges, exploring various aspects of Full Stack Development and other technologies that I'll be learning throughout my engineering journey.
+Here, you'll find my daily codes. Additionally, this repository will evolve beyond LeetCode to encompass a broader spectrum of coding challenges, exploring various aspects of Full Stack Development and other technologies that I'll be learning throughout my engineering journey.
 
 ## Connect with Me
 
