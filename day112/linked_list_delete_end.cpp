@@ -65,4 +65,5 @@ int main() {
     head = deleteTail(head);
     // Print the linked list after deletion
     printLL(head);
+    return 0;
 }
