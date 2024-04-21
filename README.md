@@ -4,6 +4,8 @@ Welcome to my Daily Coding Solutions repository! I'm Akshat Khatri, currently pu
 
 Here, you'll find my daily codes. Additionally, this repository will evolve beyond LeetCode to encompass a broader spectrum of coding challenges, exploring various aspects of Full Stack Development and other technologies that I'll be learning throughout my engineering journey.
 
+## from day131 or so onwards my progress will not be in respective directories due to limitations in the react js directory structure , though i am maintaining a commit history and you can check the logs for updates or just peek in the react_js directory :)
+
 ## Connect with Me
 
 - [LinkedIn](https://www.linkedin.com/in/akshat-khatri-c/)
