@@ -21,7 +21,7 @@ export default function Textform(props) {
 
     const handleLastOnchange=(event)=>{
         console.log("Last fired");
-        if(event.target.value==0){
+        if(event.target.value===0){
             setLastIndex(text.length);
         }
         setLastIndex(event.target.value);
@@ -49,27 +49,28 @@ export default function Textform(props) {
     return (
         <>
             <div>
-            <h1>{props.heading}</h1>
+            <h1 style={{color:props.mode==="dark"?'white':'black'}}>{props.heading}</h1>
             <div className="mb-3">
-                <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="8"></textarea>
+                <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="8" style={{backgroundColor:props.mode==="dark"?"grey":"white",color:props.mode==="dark"?"white":"black"}}></textarea>
             </div>
             <button className="btn btn-primary mx-5" onClick={handleUpClick}>Convert to uppercase</button>
             <button className="btn btn-primary" onClick={handleLoClick}>Convert to Lowercase</button>
 
             <div className="form-floating mb-3  my-4">
-                <input type="number" onChange={handleStartOnchange} className="form-control" id="floatingInput" placeholder="name@example.com"/>
+                <input type="number" onChange={handleStartOnchange} className="form-control" id="floatingInput" placeholder="name@example.com" style={{backgroundColor:props.mode==="dark"?"grey":"white",color:props.mode==="dark"?"white":"black"}}/>
                     <label htmlFor="floatingInput">Starting index of character(by default start)</label>
             </div>
             <div className="form-floating my-4">
-                <input type="number" onChange={handleLastOnchange} className="form-control" id="floatingPassword" placeholder="Password"/>
+                <input type="number" onChange={handleLastOnchange} className="form-control" id="floatingPassword" placeholder="Password" style={{backgroundColor:props.mode==="dark"?"grey":"white",color:props.mode==="dark"?"white":"black"}}/>
                     <label htmlFor="floatingPassword">last index of character (by default end)</label>
             </div>
 
             <button className="btn btn-primary" onClick={handleSubstrClick}>Extract the string</button>
-            <h2>Extracted text is </h2>
+            <h2 style={{color:props.mode==="dark"?"white":"black"}}>Extracted text is </h2>
             <p className='my-5'>{subString}</p>
         </div>
-        <div className="container my-3">
+        <div className="container my-3" style={{color:props.mode==="dark"?"white":"black"}}>
+
             <h2>Your Text Summary:</h2>
             <p>{text.split(" ").length}words and {text.length} characters</p>
             <p>{0.48 * text.split(" ").length} seconds required to read this</p>
